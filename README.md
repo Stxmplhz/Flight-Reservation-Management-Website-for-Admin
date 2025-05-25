@@ -14,4 +14,4 @@
 - Payment System: Track and manage payments associated with reservations
 - Role-Based Access Control: Different user roles have specific permissions to access and control parts of the system
 
-*My role of this project*: Backend Developer & Fetching API
+*My main role of this project*: Backend Developer & Fetching API
