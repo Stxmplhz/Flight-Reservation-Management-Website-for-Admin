@@ -1,22 +1,11 @@
-# Vue Web App
-
-## 🛠 ขั้นตอนการติดตั้งและเปิดใช้งานโปรเจกต์
-
-### 1. ติดตั้ง Node.js (หากยังไม่มี)
-- ดาวน์โหลดจาก [https://nodejs.org/en](https://nodejs.org/en) แล้วทำการติดตั้ง
-- เมื่อติดตั้งเสร็จ ให้ตรวจสอบด้วยคำสั่ง: node -v 
-- หากขึ้นเวอร์ชันของ Node แสดงว่าพร้อมใช้งานแล้ว
-
-### 2. แตกไฟล์ zip และเข้าโฟลเดอร์โปรเจกต์
-- แตกไฟล์ zip ที่ได้รับ
-- เปิด **Visual Studio Code (VS Code)** แล้วเลือก "Open Folder" ไปยังโปรเจกต์
-
-### 3. ติดตั้ง dependencies
-เปิด Terminal ใน VS Code แล้วพิมพ์: 
-- npm install 
-- เพื่อทำการติดตั้งแพ็กเกจที่จำเป็น
-
-### 4. เปิดเว็บโปรเจกต์ (Development Mode)
-หลังจากติดตั้งเสร็จ ให้รันโปรเจกต์ด้วยคำสั่ง:
-- npm run dev 
-- ระบบจะทำการรันเว็บแอป และแสดงลิงก์ (เช่น http://localhost:5173) ให้สามารถเปิดในเบราว์เซอร์ได้ทันที
+**Flight Reservation Database Managemen**t is a web application developed to efficiently manage flight bookings, payments, and user administration. The system leverages modern technologies including Node.js, Vue.js, and MySQL to deliver a robust and secure experience, with role-based access control for different types of administrative users.
+**Technologies Used**
+*Backend*: Node.js, Express.js, MySQL
+*Frontend*:Vue.js, Vue Router 
+**Key Features**
+- User Management: Manage user accounts and assign roles such as Super Admin, Flight Admin, and Finance Admin
+- Flight & Airline Management: Create, update, and delete flight information, airlines, and aircraft data
+- Reservation System: Handle customer bookings and manage passenger information
+- Seat Management: Organize seat availability and assignment for each flight
+- Payment System: Track and manage payments associated with reservations
+- Role-Based Access Control: Different user roles have specific permissions to access and control parts of the system
